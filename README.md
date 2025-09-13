@@ -1,17 +1,12 @@
-A full-featured To-Do List Application built with the MERN (MongoDB, Express, React, Node.js) stack. Easily manage your tasks with features to add, edit, delete, and mark them as completed. This app includes a responsive frontend, a robust RESTful API, and persistent database storage.
+# React + Vite
 
-🚀 Features
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-✅ Add new tasks
+Currently, two official plugins are available:
 
-✏️ Edit existing tasks
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-🗑️ Delete tasks
+## Expanding the ESLint configuration
 
-☑️ Mark tasks as completed/incomplete
-
-📦 Data stored in MongoDB
-
-🔐 CORS and environment-safe API structure
-
-🌐 Fully responsive UI (Mobile + Desktop)
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
